@@ -3,3 +3,5 @@
 
 - [ ] add href to salmon
 - [ ] add pic to readme
+- [ ] fix *1 foot
+- [ ] fix href in html
