@@ -20,7 +20,7 @@ def fetch_salmon(url, salmons):
         for table in tables:
             if index >= length:
                 break
-            res +='<p>'+salmons[index]+': </p>'
+            res += f'<a href="{url}">{salmons[index]}</a>:'
             res += table.prettify()
             index+=1
         return res
